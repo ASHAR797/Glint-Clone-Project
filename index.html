@@ -17,9 +17,9 @@
         <div>
             <img src="./assets/img-folder/logo.png" alt="">
         </div>
-        <nav>
-            <div class="flex align-center">
-                <span>Menu</span>
+        <nav class="navigation-bar flex align-center justify-evenly">
+            <div class="flex align-center justify-evenly">
+                <span>MENU</span>
                 <img src="assets/img-folder/icons8-menu.svg" alt="">
             </div>
         </nav>
@@ -54,7 +54,7 @@
         </section>
         <!-- Section - 2 -->
         <section class="sec-2">
-            <div>
+            <div class="flex flex-column align-center">
                 <span>HELLO THERE</span>
                 <h2>We Are Glint</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -86,7 +86,7 @@
             </div>
         </section>
         <section class="sec-3 flex flex-column align-center">
-            <div>
+            <div class="flex flex-column align-center">
                 <span>WHAT WE DO</span>
                 <h2>We’ve got everything you need to launch and grow your business</h2>
             </div>
@@ -247,8 +247,8 @@
             </div>
             <div class="sec-6-profile flex flex-column">
                 <img src="https://preview.colorlib.com/theme/glint/images/avatars/user-01.jpg.webp" alt="">
-                <h4>Ashar ali</h4>
-                <span>Ceo of ***lex01</span>
+                <h4>Tim Cook</h4>
+                <span>Ceo. Apple</span>
             </div>
         </section>
         <section class="sec-7 flex flex-column align-center">
@@ -257,15 +257,17 @@
                 <h2>Reach out for a new project or just say hello</h2>
             </div>
             <div class="contact-main-container flex">
-                <div class="contact-form flex flex-column justify-evenly">
+                <div class="contact-form flex flex-column justify-center">
                     <span>SEND US A MESSAGE</span>
+                    <form class="sec-7-form flex flex-column">
                     <input type="text" placeholder="Your Name">
                     <input type="email" placeholder="Your Email">
                     <input type="email" placeholder="Subject">
                     <textarea name="comment" form="usrform" placeholder="Message"></textarea>
+                    </form>
                     <button>SUBMIT</button>
                 </div>
-                <div class="contact-info flex flex-column justify-evenly">
+                <div class="contact-info flex flex-column justify-center">
                     <span>CONTACT INFO</span>
                     <div class="c-info">
                         <h4>Where to Find Us</h4>
@@ -320,6 +322,7 @@
         var swiper = new Swiper(".mySwiper", {
         });
     </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
